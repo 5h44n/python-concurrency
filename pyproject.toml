@@ -6,13 +6,15 @@ authors = ["Shaan Savarirayan <shaan.savarirayan@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+requests = "^2.26.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 
+[tool.poetry.scripts]
+hello = "python_concurrency.hello:main"
+sync_io = "python_concurrency.sync_io:main"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.scripts]
-hello = "python_concurrency.hello:main"
