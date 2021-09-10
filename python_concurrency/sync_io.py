@@ -21,7 +21,7 @@ def main():
     start_time = time.time()
     download_all_sites(sites)
     duration = time.time() - start_time
-    print(f"Downloaded {len(sites)} in {duration} seconds")
+    print(f"\nDownloaded {len(sites)} in {duration} seconds\n")
 
 if __name__ == "__main__":
     main()

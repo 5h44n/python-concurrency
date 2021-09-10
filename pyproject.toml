@@ -14,6 +14,7 @@ pytest = "^5.2"
 [tool.poetry.scripts]
 hello = "python_concurrency.hello:main"
 sync_io = "python_concurrency.sync_io:main"
+threading_io = "python_concurrency.threading_io:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
