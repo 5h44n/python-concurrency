@@ -23,5 +23,6 @@ def main():
     duration = time.time() - start_time
     print(f"\nDownloaded {len(sites)} in {duration} seconds\n")
 
+
 if __name__ == "__main__":
     main()

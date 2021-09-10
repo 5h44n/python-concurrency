@@ -13,6 +13,7 @@ aiohttp = "^3.7.4"
 pytest = "^5.2"
 
 [tool.poetry.scripts]
+async_io = "python_concurrency.async_io:main"
 hello = "python_concurrency.hello:main"
 sync_io = "python_concurrency.sync_io:main"
 threading_io = "python_concurrency.threading_io:main"
