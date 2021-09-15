@@ -15,6 +15,7 @@ pytest = "^5.2"
 [tool.poetry.scripts]
 async_io = "python_concurrency.async_io:main"
 hello = "python_concurrency.hello:main"
+multiprocessing_cpu = "python_concurrency.multiprocessing_cpu:main"
 multiprocessing_io = "python_concurrency.multiprocessing_io:main"
 sync_cpu = "python_concurrency.sync_cpu:main"
 sync_io = "python_concurrency.sync_io:main"
