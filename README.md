@@ -11,7 +11,7 @@ RealPython tutorial on different concurrency approaches in Python.
 ```
 # pyproject.toml
 
-[tools.poetry.scripts]
+[tool.poetry.scripts]
 
 # Find script command definitions here
 # ...
